@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+}
+
+#connect4{
+  background-color: #ff6600;
+  display: inline-block;
+}
+
+.col{
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.next-green{
+  background-color: #88f640;
+}
+
+.col.empty {
+  cursor: pointer;
+}
+
+.next-purple{
+  background-color: #dd3eec;
+}
+
+.col.purple{
+  background-color: #dd3eec;
+}
+
+.col.green {
+  background-color: #88f640;
+}
